@@ -1,0 +1,103 @@
+html {
+    font-size: 62.5%;
+    background-image: url(bg2.jpg);
+    background-size: 100vw;
+    /* background-repeat: no-repeat; */
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.heading {
+    border: 1rem double rgb(61, 58, 58);
+    border-radius: .2rem;
+    background-color: black;
+    color: blue;
+    padding: 1rem;
+    width: 100vw;
+    text-align: center;
+}
+
+.box {
+    border-radius: 2rem;
+    /* padding: 1rem; */
+    margin: .5vw 3vw .5vw 3vw;
+    display: inline-block;
+    text-align: center;
+    height: 50vh;
+    width: 89.5vw;
+}
+
+#box1 {
+    border: 2rem double rgb(131, 46, 148);
+}
+
+#box2 {
+    border: 2rem double cyan;
+}
+
+#box3 {
+    border: 2rem double rgb(255, 0, 0);
+}
+
+#box4 {
+    border: 2rem double rgb(68, 214, 105);
+}
+
+.pic {
+    /* border: 2rem double red;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem 2rem 1rem 3rem;
+    display: inline-block; */
+    border-radius: .2rem;
+    height: 50vh;
+    width: 89.5vw;
+}
+
+.pra {
+    font-size: 4vh;
+    position: absolute;
+    margin-top: -30vh;
+    margin-left: 3vw;
+    /* color: brown; */
+}
+
+.p1 {
+    color: rgb(131, 46, 148);
+}
+
+.p2 {
+    color: cyan;
+}
+
+.p3 {
+    color: rgb(255, 0, 0);
+}
+
+.p4 {
+    color: rgb(159, 231, 177);
+}
+
+.foot {
+    height: 3vh;
+    background-color: rgba(67, 32, 68, 0.952);
+    border: .5rem;
+    border-style: double;
+    border-color: rgb(46, 46, 94);
+    padding: .7rem;
+    text-align: center;
+    margin: 0rem;
+    position: relative;
+    /* display: inline-flex; */
+    width: 100vw;
+    /* width: var(html); */
+}
+
+.foottext {
+    font-size: 1.7vh;
+    color: rgb(157, 168, 201);
+    text-align: center;
+}

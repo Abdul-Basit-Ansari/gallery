@@ -1,0 +1,175 @@
+.display{
+    border: 1rem solid rgb(54, 54, 75);
+    height: 87vh;width: 72vw;display: inline-block;
+    position: absolute; 
+    margin-top: 0rem;border-radius: 1rem;
+    
+
+}
+
+.h1{
+    font-size: 2rem;color: darkblue;margin-left: 4rem;
+}
+#gallery1{
+    display:inline-flex;
+    border:1rem solid rgb(52, 52, 59);
+    /* position: absolute; */
+    height: 90vh;
+    width: 20rem;
+    overflow-y: auto;
+    background-color: rgb(82, 66, 46);
+    margin-top: .7rem;
+    margin-left:1.1rem;
+    border-radius: 2rem;
+}
+
+
+#sidebarMenu {
+    height: 79rem;
+    position: absolute;
+    /* left: 0;
+    top: 1rem; */
+    width: 20rem;
+
+    margin-top: 3rem;
+    transform: translateX(-25rem);
+    transition: transform 250ms ease-in-out;
+}
+  
+.navbar {
+    background-color: rgba(67, 32, 68, 0.952);
+    color: rgb(157, 168, 201);
+    padding: .4rem;
+    width: 98.5%;
+    height: 5vw;
+    border: .5rem;
+    border-style: double;
+    border-color: rgb(46, 46, 94);
+    display: inline-flex;
+}
+.link {
+    margin: 0rem;
+    font-size: 4rem;
+    padding: .2rem 1rem .2rem 1rem;
+    color: rgb(37, 43, 43);
+}
+.liselect {
+    padding: .2rem 1rem .2rem 1rem;
+    text-decoration: none;
+    margin: 0rem;
+    font-size: 4rem;
+    border: .1rem solid aqua;
+    border-radius: 1rem;
+    color: rgb(9, 119, 170);
+}
+
+.link {
+    color: cyan;
+    text-decoration: none;
+}
+
+.h1 {
+    font-size: 4rem;
+    color: rgb(89, 89, 230);
+    margin-left: 5rem;
+    margin-right: 2rem;
+}
+#openSidebarMenu:checked ~ #sidebarMenu {
+    transform: translatex(0%);
+    transform: translatey(-3%);
+}
+
+input#openSidebarMenu{
+    
+    display: none;
+}
+.sidebarIconToggle {
+  height: 2rem;
+    width: 2rem;
+    position: absolute;
+    z-index: 99;
+    top: 3em;
+    left: 1.5rem;
+    transition: all 0.3s;
+    cursor:pointer; 
+}
+.spinner {
+    height: .3rem;
+    background-color: cyan;
+    transition: all 0.3s;
+}
+.spinner.top{
+    height: .4rem;
+}
+.spinner.middle ,
+.spinner.bottom{
+    margin-top: .3rem;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle {
+    opacity: 0;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.top {
+    transform: rotate(135deg);
+    margin-top: .8rem;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -.9rem;
+}
+
+
+.pre {
+    /* position: absolute; */
+    /* display: none; */
+    margin: 38vh 0rem 0rem .5rem;
+    width: 3rem;
+    height: 10rem;
+    background: none;
+    border: none;
+}
+
+.nex {
+    /* position: absolute; */
+    /* display: none; */
+    margin: 38vh 0rem 0rem 79vw;
+    width: 3rem;
+    height: 10rem;
+    background: none;
+    border: none;
+}
+
+.backword1 {
+    border-radius: 3rem;
+    height: 3rem;
+    width: .4rem;
+    margin: 0rem 0rem 0rem 1rem;
+    transform: rotate(-135deg);
+    background-color: rgba(67, 32, 68, 0.952);
+}
+
+.backword2 {
+    border-radius: 3rem;
+    height: 3rem;
+    width: .4rem;
+    margin: -1rem 0rem 0rem 1rem;
+    transform: rotate(135deg);
+    background-color: rgba(67, 32, 68, 0.952);
+}
+
+.forword1 {
+    border-radius: 3rem;
+    height: 3rem;
+    width: .4rem;
+    margin: 0rem 0rem 0rem 1rem;
+    transform: rotate(135deg);
+    background-color: rgba(67, 32, 68, 0.952);
+}
+
+.forword2 {
+    border-radius: 3rem;
+    height: 3rem;
+    width: .4rem;
+    margin: -1rem 0rem 0rem 1rem;
+    transform: rotate(-135deg);
+    background-color: rgba(67, 32, 68, 0.952);
+}

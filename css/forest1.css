@@ -1,0 +1,361 @@
+html {
+    font-size: 62.5%;
+    /* background-color: cadetblue; */
+    background-image: url(bg2.jpg);
+    background-size: 100%;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: cursive;
+}
+
+.navbar {
+    background-color: rgba(67, 32, 68, 0.952);
+    color: rgb(157, 168, 201);
+    padding: .4rem;
+    width: 98.5%;
+    border: .5rem;
+    border-style: double;
+    border-color: rgb(46, 46, 94);
+    display: inline-flex;
+}
+
+.nli {
+    margin: 0rem;
+    font-size: 2rem;
+    padding-left: 2rem;
+    color: cyan;
+}
+
+.link {
+    color: cyan;
+    text-decoration: none;
+}
+
+.h1 {
+    font-size: 2rem;
+    color: rgb(89, 89, 230);
+    margin-left: 0rem;
+}
+
+#gallery1 {
+    display: inline-flex;
+    border: 1rem solid rgb(52, 52, 59);
+    position: absolute;
+    height: 76.9rem;
+    width: 20rem;
+    overflow-y: auto;
+    background-image: url(bg1.jpg);
+    background-size: 100%;
+    margin-top: .3rem;
+    margin-left: 1.1rem;
+    border-radius: 2rem;
+}
+
+.btn {
+    margin: .2rem;
+    background-color: rgba(67, 32, 68, 0.952);
+    border-radius: 10rem;
+}
+
+.im {
+    margin: 1rem;
+    width: 15.5rem;
+    height: 16rem;
+    display: inline;
+    filter: contrast(200%);
+    border-radius: 10rem;
+}
+
+#box1 {
+    display: inline;
+}
+
+.item :hover {
+    transform: scale(.8, .8);
+    transition: .2s transform;
+}
+
+.im:hover {
+    transform: rotate(50turn);
+    transition: .2s transform;
+    cursor: pointer;
+}
+
+.item {
+    display: inline;
+}
+
+#message {
+    margin-top: 35rem;
+    margin-left: 20rem;
+    border: 1rem solid rgb(92, 39, 39);
+    position: absolute;
+    border-radius: 2rem;
+    color: rgba(67, 32, 68, 0.952);
+    font-size: 4rem;
+    text-decoration-style: double;
+    text-decoration-line: underline;
+    display: flex;
+}
+
+#col {
+    border-radius: 2rem;
+    height: 70rem;
+    width: 99rem;
+    position: absolute;
+    display: inline-flex;
+    margin-top: 6.9rem;
+    margin-left: 25rem;
+}
+
+.display {
+    border: 1rem solid rgb(54, 54, 75);
+    height: 70rem;
+    width: 90rem;
+    display: inline;
+    position: relative;
+    margin-left: 5rem;
+    border-radius: 1rem;
+}
+
+.foot {
+    background-color: rgba(67, 32, 68, 0.952);
+    border: .5rem;
+    border-style: double;
+    border-color: rgb(46, 46, 94);
+    padding: .7rem;
+    text-align: center;
+    margin: 0rem;
+    position: relative;
+    display: inline-flex;
+    margin-top: 79.6rem;
+    width: 98%;
+    width: var(html);
+}
+
+.foottext {
+    color: rgb(157, 168, 201);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#gallery1::-webkit-scrollbar {
+    border-color: rgb(240, 0, 0);
+    width: .1rem;
+}
+
+.tx {
+    display: inline-block;
+    position: absolute;
+    font-size: 5rem;
+    margin-top: -8rem;
+    margin-left: 30rem;
+    color: rgb(122, 27, 27);
+}
+
+.pre {
+    position: absolute;
+    /* display: none; */
+    margin: 35rem 0rem 0rem .5rem;
+    width: 3rem;
+    height: 10rem;
+    background: none;
+    border: none;
+}
+
+.nex {
+    position: absolute;
+    /* display: none; */
+    margin: 35rem 0rem 0rem 99rem;
+    width: 3rem;
+    height: 10rem;
+    background: none;
+    border: none;
+}
+
+.backword1 {
+    border-radius: 3rem;
+    height: 3rem;
+    width: .4rem;
+    margin: 0rem 0rem 0rem 1rem;
+    transform: rotate(-135deg);
+    background-color: rgba(67, 32, 68, 0.952);
+}
+
+.backword2 {
+    border-radius: 3rem;
+    height: 3rem;
+    width: .4rem;
+    margin: -1rem 0rem 0rem 1rem;
+    transform: rotate(135deg);
+    background-color: rgba(67, 32, 68, 0.952);
+}
+
+.forword1 {
+    border-radius: 3rem;
+    height: 3rem;
+    width: .4rem;
+    margin: 0rem 0rem 0rem 1rem;
+    transform: rotate(135deg);
+    background-color: rgba(67, 32, 68, 0.952);
+}
+
+.forword2 {
+    border-radius: 3rem;
+    height: 3rem;
+    width: .4rem;
+    margin: -1rem 0rem 0rem 1rem;
+    transform: rotate(-135deg);
+    background-color: rgba(67, 32, 68, 0.952);
+}
+
+#openSidebarMenu {
+    display: none;
+}
+
+@media (max-width:200px) and (min-width:0px) {
+    html {
+        font-size: 8%
+    }
+}
+
+@media(max-width:250px) and (min-width:200px) {
+    html {
+        font-size: 10%;
+    }
+}
+
+@media(max-width:300px) and (min-width:250px) {
+    html {
+        font-size: 12%;
+    }
+}
+
+@media(max-width:350px) and (min-width:300px) {
+    html {
+        font-size: 14%;
+    }
+}
+
+@media (max-width:400px) and (min-width:350px) {
+    html {
+        font-size: 16%;
+    }
+}
+
+@media (max-width:450px) and (min-width:400px) {
+    html {
+        font-size: 20%;
+    }
+}
+
+@media (max-width:500px) and (min-width:450px) {
+    html {
+        font-size: 22%
+    }
+}
+
+@media (max-width:550px) and (min-width:500px) {
+    html {
+        font-size: 24%;
+    }
+}
+
+@media (max-width:600px) and (min-width:550px) {
+    html {
+        font-size: 26%
+    }
+}
+
+@media (max-width:650px) and (min-width:600px) {
+    html {
+        font-size: 28%
+    }
+}
+
+@media (max-width:700px) and (min-width:650px) {
+    html {
+        font-size: 30%
+    }
+}
+
+@media (max-width:750px) and (min-width:700px) {
+    html {
+        font-size: 33%
+    }
+}
+
+@media (max-width:800px) and (min-width:750px) {
+    html {
+        font-size: 36%
+    }
+}
+
+@media (max-width:850px) and (min-width:800px) {
+    html {
+        font-size: 39%
+    }
+}
+
+@media (max-width:900px) and (min-width:850px) {
+    html {
+        font-size: 42%
+    }
+}
+
+@media (max-width:950px) and (min-width:900px) {
+    html {
+        font-size: 45%
+    }
+}
+
+@media (max-width:1000px) and (min-width:950px) {
+    html {
+        font-size: 48%
+    }
+}
+
+@media (max-width:1050px) and (min-width:1000px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width:1100px) and (min-width:1050px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+
+@media (max-width:1150px) and (min-width:1100px) {
+    html {
+        font-size: 54.5%;
+    }
+}
+
+@media (max-width:1200px) and (min-width:1150px) {
+    html {
+        font-size: 56.5%;
+    }
+}
+
+@media (max-width:1250px) and (min-width:1200px) {
+    html {
+        font-size: 58.5%;
+    }
+}
+
+@media (max-width:1300px) and (min-width:1250px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width:1350px) and (min-width:1300px) {
+    html {
+        font-size: 62.5%;
+    }
+}
